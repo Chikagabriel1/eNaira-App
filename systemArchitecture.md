@@ -3,6 +3,7 @@
 eNaira Connect is a modular integration layer designed to extend existing banking applications. It allows banks to enable eNaira transactions within their mobile platforms while maintaining compliance with CBN infrastructure.
 
 
+
 **ARCHITECTURE LAYERS:**
 
 Frontend (Mobile Banking App Extension)
@@ -14,6 +15,7 @@ Embeds eNaira dashboard and wallet switch interface
 Handles user interactions, transactions, and balance display
 
 
+
 **BACKEND (INTEGRATION LAYER):**
 
 Node.js + Express handles API orchestration
@@ -23,6 +25,7 @@ Authenticates users via existing bank KYC records
 Facilitates conversion requests and transaction logging
 
 
+
 **DATABASE LAYER:**
 
 MongoDB stores transaction metadata and user preferences
@@ -30,10 +33,12 @@ MongoDB stores transaction metadata and user preferences
 Sensitive financial data remains with the bank’s secure systems
 
 
+
 **EXTERNAL APIs:**
 CBN eNaira API: For wallet creation, balance retrieval, transfers, and FX operations
 
 NIBSS API: For settlement, interoperability, and payment processing
+
 
 
 **SECURITY & COMPLIANCE**
@@ -43,6 +48,7 @@ Implements token-based authentication (JWT)
 End-to-end encryption for data in transit
 
 Audit logs for traceability and CBN compliance
+
 
 
 **SYSTEM WORKFLOW:**
@@ -59,7 +65,8 @@ Audit logs for traceability and CBN compliance
 
 6. Confirmation & Sync → Updates both eNaira and bank balances in real time.
    
-LINK TO MY EXTENSIVE FLOW CHART: https://docs.google.com/document/d/1l7H8evj54zjY3Ldug8TNFSvjZQDSMyvJvAQc5_vOHtY/edit?usp=sharing
+**LINK TO MY EXTENSIVE FLOW CHART:** https://docs.google.com/document/d/1l7H8evj54zjY3Ldug8TNFSvjZQDSMyvJvAQc5_vOHtY/edit?usp=sharing
+
 
 
 **TECHNICAL FEASIBILITY**
