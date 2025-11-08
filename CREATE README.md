@@ -1,9 +1,11 @@
 Product Name: eNaira connect
 
 AN OVERVIEW:
+
 eNaira Connect NairaBridge bridges the gap between Nigeria’s digital currency, the eNaira, and existing banking systems. Although the eNaira was introduced to modernize financial transactions, many Nigerians either don’t know it exists or don’t understand how to use it. The product has struggled with visibility and accessibility, making adoption extremely low. eNaira Connect solves this by bringing the eNaira to where users already are; inside their everyday banking apps. This integration makes the eNaira visible, usable, and convenient, allowing users to manage both their regular bank funds and eNaira wallet in one familiar place.
 
 PROBLEM STATEMENT:
+
 Despite being launched by the Central Bank of Nigeria (CBN), the eNaira has struggled with visibility and awareness. Many Nigerians simply don’t know it exists, while others don’t see a clear reason to use it alongside their regular banking apps. Because it operates as a separate platform, it often goes unnoticed, resulting in low adoption and limited daily usage.
 
 WHAT eNaira CONNECT DOES:
