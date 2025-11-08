@@ -1,14 +1,16 @@
-Product Name: eNaira connect
+**PRODUCT NAME: eNaira CONNECT**
 
-AN OVERVIEW:
+**AN OVERVIEW:**
 
 eNaira Connect NairaBridge bridges the gap between Nigeria’s digital currency, the eNaira, and existing banking systems. Although the eNaira was introduced to modernize financial transactions, many Nigerians either don’t know it exists or don’t understand how to use it. The product has struggled with visibility and accessibility, making adoption extremely low. eNaira Connect solves this by bringing the eNaira to where users already are; inside their everyday banking apps. This integration makes the eNaira visible, usable, and convenient, allowing users to manage both their regular bank funds and eNaira wallet in one familiar place.
 
-PROBLEM STATEMENT:
+
+**PROBLEM STATEMENT:**
 
 Despite being launched by the Central Bank of Nigeria (CBN), the eNaira has struggled with visibility and awareness. Many Nigerians simply don’t know it exists, while others don’t see a clear reason to use it alongside their regular banking apps. Because it operates as a separate platform, it often goes unnoticed, resulting in low adoption and limited daily usage.
 
-WHAT eNaira CONNECT DOES:
+
+**WHAT eNaira CONNECT DOES:**
 1. Integrates eNaira access directly into existing banking apps
 
 2. Lets users switch between bank naira and eNaira accounts easily
@@ -18,7 +20,7 @@ WHAT eNaira CONNECT DOES:
 4. Provides a simple onboarding flow that uses existing KYC from your bank
 
 
-WHO eNaira CONNECT IS FOR:
+**WHO eNaira CONNECT IS FOR:**
 
 1. Everyday Nigerians using mobile banking apps
 
@@ -27,7 +29,7 @@ WHO eNaira CONNECT IS FOR:
 3. Regulators and fintechs exploring CBDC use cases
 
 
-KEY FEATURES:
+**KEY FEATURES:**
 
 1. Dual wallet management (Bank + eNaira)
 
@@ -40,7 +42,7 @@ KEY FEATURES:
 5. Optional link to the full eNaira platform for advanced features (e.g., FX conversion, digital asset payments)
 
 
-TECHNOLOGIES USED:
+**TECHNOLOGIES USED:**
 
 Frontend: React Native (for mobile banking interface)
 
