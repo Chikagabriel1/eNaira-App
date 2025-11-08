@@ -1,9 +1,9 @@
-System Overview:
+**SYSTEM OVERVIEW:**
 
 eNaira Connect is a modular integration layer designed to extend existing banking applications. It allows banks to enable eNaira transactions within their mobile platforms while maintaining compliance with CBN infrastructure.
 
 
-Architecture Layers:
+**ARCHITECTURE LAYERS:**
 
 Frontend (Mobile Banking App Extension)
 
@@ -14,7 +14,7 @@ Embeds eNaira dashboard and wallet switch interface
 Handles user interactions, transactions, and balance display
 
 
-Backend (Integration Layer)
+**BACKEND (INTEGRATION LAYER):**
 
 Node.js + Express handles API orchestration
 
@@ -23,20 +23,20 @@ Authenticates users via existing bank KYC records
 Facilitates conversion requests and transaction logging
 
 
-Database Layer
+**DATABASE LAYER:**
 
 MongoDB stores transaction metadata and user preferences
 
 Sensitive financial data remains with the bank’s secure systems
 
 
-External APIs
+**EXTERNAL APIs:**
 CBN eNaira API: For wallet creation, balance retrieval, transfers, and FX operations
 
 NIBSS API: For settlement, interoperability, and payment processing
 
 
-Security & Compliance
+**SECURITY & COMPLIANCE**
 
 Implements token-based authentication (JWT)
 
@@ -45,7 +45,7 @@ End-to-end encryption for data in transit
 Audit logs for traceability and CBN compliance
 
 
-System Workflow
+**SYSTEM WORKFLOW:**
 
 1. User Accesses Banking App → Logs in via existing credentials.
 
@@ -58,9 +58,11 @@ System Workflow
 5. User Performs Transactions → Send, receive, or convert naira ↔ eNaira.
 
 6. Confirmation & Sync → Updates both eNaira and bank balances in real time.
+   
+LINK TO MY EXTENSIVE FLOW CHART: https://docs.google.com/document/d/1l7H8evj54zjY3Ldug8TNFSvjZQDSMyvJvAQc5_vOHtY/edit?usp=sharing
 
 
-Technical Feasibility
+**TECHNICAL FEASIBILITY**
 
 1. Banks already integrate multiple payment rails (e.g., NIBSS, BVN, CBN APIs). Adding eNaira APIs is technically feasible.
 
