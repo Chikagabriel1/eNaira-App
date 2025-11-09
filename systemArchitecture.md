@@ -78,3 +78,11 @@ Audit logs for traceability and CBN compliance
 3. Modular microservice architecture ensures scalability across banks.
 
 
+
+
+
+
+
+
+
+Edited locally to add diagram placeholder
