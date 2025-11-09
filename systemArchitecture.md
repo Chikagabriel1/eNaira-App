@@ -76,3 +76,5 @@ Audit logs for traceability and CBN compliance
 2. Using the bank’s verified KYC reduces onboarding friction.
 
 3. Modular microservice architecture ensures scalability across banks.
+
+
